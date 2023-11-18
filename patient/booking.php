@@ -28,7 +28,7 @@
         <li><a href="/pis/index.php?logout='1' "style="font-size:14px;" id="logout">logout</a></li>
         <li>
 				<!-- logged in user information -->
-
+<!-- logged in user information -->
      		<?php  if (isset($_SESSION['user'])) : ?>
                 <strong><?php echo $_SESSION['user']['user_type']="Patient"; ?></strong>
 
